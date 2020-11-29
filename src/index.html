@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--Html meta-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- about website-->
+    <html lang="en">
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="how many camels do you worth" />
+    <meta name="author" content="Destiny" />
+
+
+    <!--CSS-->
+    <!--local CSS -->
+    <link rel="stylesheet" href="styleSheets/index.css" />
+
+    <!--external CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!--JS-->
+    <!--internal JS-->
+    <script src="scripts/index.js"></script>
+
+    <!--externa JS-->
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script data-require="jquery@*" data-semver="2.1.1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <div class="media"> <img width="170" height="50" src="../resources/logo/logo.png"></div>
+
+
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container" id="center">
+        <h1>How many Camels do you worth? </h1>
+        <p>find this out</p>
+    </div>
+    <div class="container">
+        <p>
+            <label for="select"> origin: </label>
+            <select id="select" class="origin">
+                <option selected="selected">west european</option>
+                <option>east european</option>
+                <option>asian</option>
+                <option>middle eastern</option>
+                <option>north American (USA,Canada)</option>
+                <option>south American</option>
+                <option>north african</option>
+                <option>south african</option>
+            </select>
+        </p>
+        <p>
+            <label for="select">age:</label>
+            <select id="select" class="age">
+                <option selected="selected">18-24</option>
+                <option>25-30</option>
+                <option>30-45</option>
+                <option>46-55</option>
+                <option>56-70</option>
+                <option>over 70</option>
+            </select>
+        </p>
+        <p>
+            <label for="select">weight in kg: </label>
+            <select id="select" class="weight">
+                <option>50-55</option>
+                <option selected="selected">56-65</option>
+                <option>66-70</option>
+                <option>71-80</option>
+                <option>80-90</option>
+                <option>91-100</option>
+                <option>over 100</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="btn-group btn-group-toggle"> Gender: </label>
+        <div class="btn-group btn-group-toggle" id="genders" data-toggle="buttons">
+            <label class="btn btn-secondary">
+                <input type="radio" name="GenderOptions" id="option1" autocomplete="off" value="Female">
+                <div class="media"> <img width="100" height="100" src="../resources/images/femail.png"></div>
+                Female
+            </label>
+            <label class="btn btn-secondary active">
+                <input type="radio" name="GenderOptions" id="option2" autocomplete="off" checked="checked" value="Male">
+                <div class="media"> <img width="100" height="100" src="../resources/images/male.png"></div>
+                Male
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="GenderOptions" id="option3" autocomplete="off" value="Others">
+                <div class="media"> <img width="100" height="100" src="../resources/images/derives.png"></div>
+                others
+            </label>
+
+        </div>
+        </p>
+
+        <p>
+            <label for="btn-group btn-group-toggle"> Eye color: </label>
+        <div class="btn-group btn-group-toggle" id="eyeColor" data-toggle="buttons">
+            <label class="btn btn-secondary">
+                <input type="radio" name="eyeColorOptions" id="option1" autocomplete="off" value="Blue">
+                <div class="media"> <img width="150" height="100" src="../resources/images/blue.jpeg"></div>
+                Blue
+            </label>
+            <label class="btn btn-secondary active">
+                <input type="radio" name="eyeColorOptions" id="option2" autocomplete="off" checked="checked1"
+                    value="Green">
+                <div class="media"> <img width="150" height="100" src="../resources/images/green.jpg"></div>
+                Green
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="eyeColorOptions" id="option3" autocomplete="off" value="Black">
+                <div class="media"> <img width="130" height="100" src="../resources/images/black.jpg"></div>
+                Black
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="eyeColorOptions" id="option4" autocomplete="off" value="Brown">
+                <div class="media"> <img width="150" height="100" src="../resources/images/brown.jpeg"></div>
+                Brown
+            </label>
+        </div>
+        </p>
+        <p>
+        <div>
+            <label for="slidecontainer"> Skin color: </label>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="box-minmax">
+                <span>Black</span><span>Brown</span><span>White</span>
+            </div>
+        </div>
+        </p>
+    </div>
+
+    <div class="container" id="center">
+        <div class="paddingBox"><button type="button" class="btn btn-primary btn-lg btn-block"
+                onclick="submit(), location.href = 'results.html'">submit</button> </div>
+    </div>
+
+</body>
+
+</html>
