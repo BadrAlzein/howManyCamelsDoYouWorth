@@ -1,2 +1,2 @@
 # howManyCamelsDoYouWorth
-this app aplication will calculate how many camels do you worth 
+this aplication will calculate how many camels do you worth 
